@@ -3,8 +3,6 @@
 
 A system that detects faces via webcam, recognizes students/employees from a stored dataset and automatically marks attendance (name, date, time) in a database or CSV. No manual attendance marking needed.  
 
----
-
 ## Table of Contents
 
 - [Features](#features)  
@@ -20,8 +18,6 @@ A system that detects faces via webcam, recognizes students/employees from a sto
 - [License](#license)  
 - [Contact](#contact)  
 
----
-
 ## Features
 
 - Real-time face detection using webcam  
@@ -30,16 +26,12 @@ A system that detects faces via webcam, recognizes students/employees from a sto
 - Support for multiple storage/database backends (SQLite, MySQL, CSV)  
 - Optionally use different face-recognition algorithms (e.g. LBPH)  
 
----
-
 ## Technologies Used
 
 - Python  
 - OpenCV (for face detection & recognition)  
 - MySQL / SQLite / CSV for storing attendance data  
 - (Any additional libs you’ve used: e.g. `face_recognition`, `dlib`, etc.)  
-
----
 
 ## Getting Started
 
@@ -118,8 +110,6 @@ Here’s a typical workflow:
    python recognize_lbph.py
    ```
 
----
-
 ## Project Structure
 
 Here’s a high-level view of the files in this repo:
@@ -132,8 +122,6 @@ Here’s a high-level view of the files in this repo:
 | `recognize_attendance.py` | Recognise faces using encodings + webcam; mark attendance.        |
 | `recognize_lbph.py`       | Recognise faces using LBPH method; alternate workflow.            |
 | Database / CSV            | Stores attendance logs: name, time, date.                         |
-
----
 
 ## How It Works
 
@@ -154,15 +142,12 @@ Here’s a high-level view of the files in this repo:
 5. **Avoiding Duplicates**
    The scripts are designed to avoid marking multiple entries for the same person for the same session (you can set rules: e.g. once per day, or once per launch).
 
----
-
 ## Supported Storage Options
 
 * **CSV** – Simple, no setup; for small/basic usage
 * **SQLite** – Local file-based DB; lightweight
 * **MySQL** – For more robust, multi-user or networked use
 
----
 
 ## Contributing
 
@@ -175,13 +160,10 @@ If you’d like to contribute:
 
 Please adhere to standard code style, and ensure your additions are well documented.
 
----
 
 ## License
 
  MIT License 
-
----
 
 ## Contact
 
