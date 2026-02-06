@@ -44,7 +44,7 @@ Make sure you have:
 - Required Python packages (see below)  
 - Database setup (if using MySQL or SQLite)  
 
-### Installation
+ Installation
 
 1. Clone the repo  
    ```bash
@@ -159,11 +159,6 @@ If you’d like to contribute:
 4. Submit a pull request
 
 Please adhere to standard code style, and ensure your additions are well documented.
-
-
-## License
-
- MIT License 
 
 ## Contact
 
